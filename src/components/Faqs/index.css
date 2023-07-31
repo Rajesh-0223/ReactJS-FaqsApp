@@ -1,0 +1,29 @@
+/* Write your code here. */
+* {
+  font-family: 'Roboto';
+}
+.app-container {
+  height: 100vh;
+  background-color: #f1f5f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faqs-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-radius: 15px;
+}
+.heading {
+  font-size: 30px;
+  color: #cb8805;
+}
+@media screen and (min-width: 992px) {
+  .heading {
+    font-size: 50px;
+  }
+}
